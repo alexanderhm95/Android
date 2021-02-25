@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/opctionActividades"
+        android:title="Actividades">
+        <menu>
+            <item
+                android:id="@+id/opcionParametros"
+                android:title="Parámetros"/>
+            <item
+                android:id="@+id/opcionLogin"
+                android:title="Login"/>
+            <item
+                android:id="@+id/opcionFragmentos"
+                android:title="Fragmentos"/>
+            <item
+                android:id="@+id/opcionDialogo"
+                android:title="Diálogos"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/optionSensores"
+        android:title="Sensores">
+        <menu>
+            <item
+                android:id="@+id/optionAcelerometro"
+                android:title="Acelerómetro"/>
+            <item
+                android:id="@+id/optionProximidad"
+                android:title="Proximidad"/>
+        </menu>
+
+    </item>
+    <item
+        android:id="@+id/optionMemI"
+        android:title="MemoriaInterna">
+        <menu>
+            <item
+                android:id="@+id/optionMI"
+                android:title="opcionMI"/>
+            <item
+                android:id="@+id/optionMP"
+                android:title="opcionMP"/>
+            <item
+                android:id="@+id/optionME"
+                android:title="opcionME"/>
+            <item
+                android:id="@+id/optionHelper"
+                android:title="opcionHelper"/>
+            <item
+                android:id="@+id/optionAlumnoVolley"
+                android:title="opcionAlumnoVolley"/>
+        </menu>
+
+    </item>
+</menu>
